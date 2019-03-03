@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Doc List</title>
-    <link>gethugothemes.com/tags/</link>
-    <description>Recent content in Tags on Doc List</description>
+    <title>Tags on hexang 开源镜像站</title>
+    <link>http://mirrors.hexang.com/tags/</link>
+    <description>Recent content in Tags on hexang 开源镜像站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
+    <language>zh_CN</language>
+    <copyright>hexang.org 2018-2019</copyright>
     
-	<atom:link href="gethugothemes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mirrors.hexang.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

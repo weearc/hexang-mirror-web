@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Features on Doc List</title>
-    <link>gethugothemes.com/features/</link>
-    <description>Recent content in Features on Doc List</description>
+    <title>Features on hexang 开源镜像站</title>
+    <link>http://mirrors.hexang.com/features/</link>
+    <description>Recent content in Features on hexang 开源镜像站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
+    <language>zh_CN</language>
+    <copyright>hexang.org 2018-2019</copyright>
     <lastBuildDate>Fri, 28 Dec 2018 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="gethugothemes.com/features/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mirrors.hexang.com/features/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux</title>
-      <link>gethugothemes.com/features/linux/</link>
+      <link>http://mirrors.hexang.com/features/linux/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
-      <guid>gethugothemes.com/features/linux/</guid>
+      <guid>http://mirrors.hexang.com/features/linux/</guid>
       <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
     </item>
     
     <item>
       <title>Mac OS</title>
-      <link>gethugothemes.com/features/mac/</link>
+      <link>http://mirrors.hexang.com/features/mac/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
-      <guid>gethugothemes.com/features/mac/</guid>
+      <guid>http://mirrors.hexang.com/features/mac/</guid>
       <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
     </item>
     
     <item>
       <title>Routing</title>
-      <link>gethugothemes.com/features/routing/</link>
+      <link>http://mirrors.hexang.com/features/routing/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
-      <guid>gethugothemes.com/features/routing/</guid>
+      <guid>http://mirrors.hexang.com/features/routing/</guid>
       <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>gethugothemes.com/features/ubuntu/</link>
+      <link>http://mirrors.hexang.com/features/ubuntu/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
-      <guid>gethugothemes.com/features/ubuntu/</guid>
+      <guid>http://mirrors.hexang.com/features/ubuntu/</guid>
       <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>gethugothemes.com/features/windows/</link>
+      <link>http://mirrors.hexang.com/features/windows/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
-      <guid>gethugothemes.com/features/windows/</guid>
+      <guid>http://mirrors.hexang.com/features/windows/</guid>
       <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
     </item>

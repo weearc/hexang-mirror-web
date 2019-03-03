@@ -1,18 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>gethugothemes.com/en/sitemap.xml</loc>
-		
-	   	<lastmod>2018-12-29T11:02:05+06:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>gethugothemes.com/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2018-12-29T11:02:05+06:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mirrors.hexang.com/installation/requirments/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/installation/install/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/installation/configuration/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/ownership/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/installation/customization/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/bill/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/installation/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/linux/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/mac/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/manage/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/payment/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/routing/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/ubuntu/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/profile/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/windows/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/billing-pricing/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/features/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/contact/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/elements/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/faq/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
