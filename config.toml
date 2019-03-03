@@ -1,115 +1,16 @@
-baseURL = "http://mirrors.hexang.com/"
+baseURL = "http://mirrors.hexang.org/"
 theme = "dot"
 languageCode = "zh_CN"
 defaultContentLanguage = "zh"
 
 [params]
-primaryColor = "#02007e"
+primaryColor = "#263130"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
-whiteColor = "#ffffff"
+whiteColor = "#f4f4f4"
 
 [Languages]
-
-  # # English Language
-  # [Languages.en]
-  # languageName = "English"
-  # weight = 1
-  # languageCode = "en-us"
-  # title = "Doc List"
-  # dateFormat = "2 January 2006"
-  # home = "Home"
-  # logo = "Dot"
-  # copyright = "The Hugo Documents are copyright © gethugothemes 2018."
-  #
-  #   # navigation
-  #   [Languages.en.menu]
-  #
-  #     [[Languages.en.menu.main]]
-  #       weight = 2
-  #       name = "Faq"
-  #       url = "/faq"
-  #
-  #     [[Languages.en.menu.main]]
-  #       weight = 2
-  #       name = "contact"
-  #       url = "/contact"
-  #
-  #     [[Languages.en.menu.main]]
-  #       weight = 2
-  #       name = "pages"
-  #       url = "/pages"
-  #       hasChildren = true
-  #
-  #         [[Languages.en.menu.main]]
-  #         parent = "pages"
-  #         name = "Elements"
-  #         URL = "/elements"
-  #         weight = 1
-  #
-  #         [[Languages.en.menu.main]]
-  #         parent = "pages"
-  #         name = "Installation"
-  #         URL = "/installation"
-  #         weight = 2
-  #
-  #         [[Languages.en.menu.main]]
-  #         parent = "pages"
-  #         name = "Billing and Pricing"
-  #         URL = "/billing-pricing"
-  #         weight = 3
-  #
-  #         [[Languages.en.menu.main]]
-  #         parent = "pages"
-  #         name = "Features"
-  #         URL = "/features"
-  #         weight = 4
-  #
-  #
-  #
-  #
-  #   # banner
-  #   [Languages.en.params.banner]
-  #     title = "Support Center & Knowledge base"
-  #     description = "Find advice and answers from our support team fast or get in touch"
-  #     image = "images/banner.jpg"
-  #     placeholder = "Have a question? Just ask here or enter terms"
-  #
-  #   # Topics
-  #   [Languages.en.params.topics]
-  #     title = "Find your answer by subject"
-  #
-  #   # call to action
-  #   [Languages.en.params.cta]
-  #     enable = true
-  #     title = "Didn't find an answer to your question?"
-  #     description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
-  #     btnText = "contact us"
-  #     btnURL = "/contact"
-  #
-  #   # contact
-  #   [Languages.en.params.contact]
-  #     title = "Got Any Questions"
-  #     content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
-  #
-  #   # footer social icon
-  #   [[Languages.en.socialIcon]]
-  #     icon = "ti-facebook"
-  #     URL = "/#"
-  #
-  #   [[Languages.en.socialIcon]]
-  #     icon = "ti-twitter-alt"
-  #     URL = "/#"
-  #
-  #   [[Languages.en.socialIcon]]
-  #     icon = "ti-vimeo-alt"
-  #     URL = "/#"
-  #
-  #   [[Languages.en.socialIcon]]
-  #     icon = "ti-instagram"
-  #     URL = "/#"
-  #
 
 
       # Simple Chinese Language
@@ -136,42 +37,42 @@ whiteColor = "#ffffff"
             name = "联系我们"
             url = "/contact"
 
-          [[Languages.zh.menu.main]]
-            weight = 2
-            name = "相关页面"
-            url = "/pages"
-            hasChildren = true
-
-              [[Languages.zh.menu.main]]
-              parent = "相关页面"
-              name = "Elements"
-              URL = "/elements"
-              weight = 1
-
-              [[Languages.zh.menu.main]]
-              parent = "相关页面"
-              name = "Installation"
-              URL = "/installation"
-              weight = 2
-
-              [[Languages.zh.menu.main]]
-              parent = "相关页面"
-              name = "Billing and Pricing"
-              URL = "/billing-pricing"
-              weight = 3
-
-              [[Languages.zh.menu.main]]
-              parent = "相关页面"
-              name = "Features"
-              URL = "/features"
-              weight = 4
+          # [[Languages.zh.menu.main]]
+          #   weight = 2
+          #   name = "相关页面"
+          #   url = "/pages"
+          #   hasChildren = true
+          #
+          #     [[Languages.zh.menu.main]]
+          #     parent = "相关页面"
+          #     name = "Elements"
+          #     URL = "/elements"
+          #     weight = 1
+          #
+          #     [[Languages.zh.menu.main]]
+          #     parent = "相关页面"
+          #     name = "Installation"
+          #     URL = "/installation"
+          #     weight = 1
+          #
+          #     [[Languages.zh.menu.main]]
+          #     parent = "相关页面"
+          #     name = "Billing and Pricing"
+          #     URL = "/pypi"
+          #     weight = 2
+          #
+          #     [[Languages.zh.menu.main]]
+          #     parent = "相关页面"
+          #     name = "Features"
+          #     URL = "/features"
+          #     weight = 3
 
 
 
 
         # banner
         [Languages.zh.params.banner]
-          title = "息壤开源工具站"
+          title = "息壤开源镜像站"
           description = "专注生产力工具解决方案"
           image = "images/banner.jpg"
           placeholder = "您需要什么工具,请在此搜索..."
@@ -190,8 +91,8 @@ whiteColor = "#ffffff"
 
         # contact
         [Languages.zh.params.contact]
-          title = "Got Any Questions"
-          content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+          title = "有任何问题?"
+          content = ""
 
         # footer social icon
         [[Languages.zh.socialIcon]]

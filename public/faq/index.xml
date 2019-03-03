@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Questions fréquemment posées on hexang 开源镜像站</title>
-    <link>http://mirrors.hexang.com/faq/</link>
+    <link>http://mirrors.hexang.org/faq/</link>
     <description>Recent content in Questions fréquemment posées on hexang 开源镜像站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh_CN</language>
     <copyright>hexang.org 2018-2019</copyright>
     <lastBuildDate>Thu, 27 Dec 2018 09:10:27 +0600</lastBuildDate>
     
-	<atom:link href="http://mirrors.hexang.com/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mirrors.hexang.org/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
