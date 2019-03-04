@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mirrors.hexang.org/pypi/</loc>
+    <loc>http://mirrors.hexang.com/pypi/</loc>
     <lastmod>2018-12-28T11:02:05+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.org/contact/</loc>
+    <loc>http://mirrors.hexang.com/contact/</loc>
     <lastmod>2018-12-27T09:10:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.org/faq/</loc>
+    <loc>http://mirrors.hexang.com/faq/</loc>
     <lastmod>2018-12-27T09:10:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.org/categories/</loc>
+    <loc>http://mirrors.hexang.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.org/tags/</loc>
+    <loc>http://mirrors.hexang.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.org/</loc>
+    <loc>http://mirrors.hexang.com/</loc>
     <priority>0</priority>
   </url>
   

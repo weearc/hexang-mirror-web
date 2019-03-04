@@ -1,4 +1,4 @@
-baseURL = "http://mirrors.hexang.org/"
+baseURL = "http://mirrors.hexang.com"
 theme = "dot"
 languageCode = "zh_CN"
 defaultContentLanguage = "zh"
