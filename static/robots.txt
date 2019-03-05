@@ -1,4 +1,6 @@
 #robots.txt for hexang-mirror
 User-agent: *
 
+Disallow: /site
 Disallow: /pypi
+Disallow: /archlinux

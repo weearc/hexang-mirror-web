@@ -3,7 +3,7 @@ title: "ArchLinux CN镜像使用指南"
 type : "post"
 ---
 ## 地址
-http://mirrors.cqu.edu.cn/archlinuxcn/
+http://mirrors.hexang.com/archlinuxcn/
 ## 说明
 Arch Linux CN仓库
 ## 简介
@@ -17,7 +17,7 @@ x86_64
 ```bash
 [archlinuxcn]
 SigLevel = TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+Server = https://mirrors.hexang.com/archlinuxcn/$arch
 ```
 执行：
 ```bash
