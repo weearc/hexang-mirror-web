@@ -3,32 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mirrors.hexang.com/pypi/</loc>
+    <loc>http://mirrors.hexang.com/site/archlinuxcn/</loc>
     <lastmod>2018-12-28T11:02:05+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.com/contact/</loc>
+    <loc>http://mirrors.hexang.com/site/pypi/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/site/news/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/site/contact/</loc>
     <lastmod>2018-12-27T09:10:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.com/faq/</loc>
+    <loc>http://mirrors.hexang.com/site/faq/</loc>
     <lastmod>2018-12-27T09:10:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.com/categories/</loc>
+    <loc>http://mirrors.hexang.com/site/archlinuxcn/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/site/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.com/tags/</loc>
+    <loc>http://mirrors.hexang.com/site/pypi/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mirrors.hexang.com/site/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mirrors.hexang.com/</loc>
+    <loc>http://mirrors.hexang.com/site/</loc>
     <priority>0</priority>
   </url>
   

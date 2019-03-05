@@ -1,4 +1,4 @@
-baseURL = "http://mirrors.hexang.com/site"
+baseURL = "http://mirrors.hexang.com/site/"
 theme = "dot"
 languageCode = "zh_CN"
 defaultContentLanguage = "zh"
@@ -15,7 +15,7 @@ whiteColor = "#f4f4f4"
 
       # Simple Chinese Language
       [Languages.zh]
-      languageName = "简体中文"
+#      languageName = "简体中文"
       weight = 1
       languageCode = "zh_CN"
       title = "hexang 开源镜像站"
@@ -26,6 +26,11 @@ whiteColor = "#f4f4f4"
 
         # navigation
         [Languages.zh.menu]
+
+          [[Languages.zh.menu.main]]
+            weight = 2
+            name = "镜像站新闻"
+            url = "/news"
 
           [[Languages.zh.menu.main]]
             weight = 2
