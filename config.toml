@@ -1,4 +1,4 @@
-baseURL = "https://mirrors.hexang.com/site/"
+baseURL = "https://mirrors.hexang.com/"
 theme = "dot"
 languageCode = "zh_CN"
 defaultContentLanguage = "zh"
@@ -39,8 +39,8 @@ whiteColor = "#f4f4f4"
 
           [[Languages.zh.menu.main]]
             weight = 2
-            name = "联系我们"
-            url = "/contact"
+            name = "镜像使用帮助"
+            url = "/help"
 
           # [[Languages.zh.menu.main]]
           #   weight = 2
@@ -87,17 +87,17 @@ whiteColor = "#f4f4f4"
           title = "在此寻找..."
 
         # call to action
-        [Languages.zh.params.cta]
-          enable = true
-          title = "没找到所需的工具?请联系我们!"
-          description = "我们将根据相关项目的许可来决定是否添加"
-          btnText = "联系我们"
-          btnURL = "/contact"
+        # [Languages.zh.params.cta]
+        #   enable = true
+        #   title = "没找到所需的工具?请联系我们!"
+        #   description = "我们将根据相关项目的许可来决定是否添加"
+        #   btnText = "联系我们"
+        #   btnURL = "/contact"
 
         # contact
-        [Languages.zh.params.contact]
-          title = "有任何问题?"
-          content = ""
+        # [Languages.zh.params.contact]
+        #   title = "有任何问题?"
+        #   content = ""
 
         # footer social icon
         [[Languages.zh.socialIcon]]

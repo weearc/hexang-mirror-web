@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html  lang="zh_CN">
+
+<head>
+  <meta charset="utf-8">
+  <title>ArchLinux CN镜像使用指南</title>
+
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://mirrors.hexang.com/site/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="http://mirrors.hexang.com/site/plugins/themify-icons/themify-icons.css">
+  <!-- highlight -->
+  <link rel="stylesheet" href="http://mirrors.hexang.com/site/plugins/highlight/hybrid.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+
+  <style>
+  :root{
+    --primary-color:#263130;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#f4f4f4;
+  }  
+  </style>
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://mirrors.hexang.com/site/css/style.min.css" integrity="" media="screen">
+
+  <!-- jquiry -->
+  <script src="http://mirrors.hexang.com/site/plugins/jquery/jquery-1.12.4.js"></script>
+
+  <!-- jquary ui -->
+  <script src="http://mirrors.hexang.com/site/plugins/jquery/jquery-ui.js"></script>
+
+  <!--Favicon-->
+  <link rel="icon" href="http://mirrors.hexang.com/site/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="http://mirrors.hexang.com/site/">HEXANG</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="http://mirrors.hexang.com/site/">主页</a>
+        </li>
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/site/faq">常见问题</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/site/contact">联系我们</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/site/news">镜像站新闻</a>
+        </li>
+        
+        
+      </ul>
+      
+      <ul class="list-inline text-center mb-0">
+        
+        <li class="list-inline-item"><a class="text-dark" href="http://mirrors.hexang.com/site/"></a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+<section class="single pt-5 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="p-4 bg-white sticky-top">
+            
+            <nav class="sidebar-menu">
+              <ul class="list-styled">
+            <li class="parent d-block "><a href="/site/archlinuxcn/">ArchLinux CN repo</a>
+              <ul class="sub-menu">
+            <li class=" active "><a href="/site/archlinuxcn/introduction/">ArchLinux CN镜像使用指南</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/site/pypi/">PyPi</a>
+              <ul class="">
+            <li class=""><a href="/site/pypi/introduction/">PyPi镜像使用指南</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/site/news/">镜像站新闻</a>
+            </li>
+            <li class=""><a href="/site/contact/">Contact</a>
+            </li>
+            <li class=""><a href="/site/faq/">常见问题</a>
+            </li></ul>
+            </nav>
+    
+            
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>ArchLinux CN镜像使用指南</h2>
+            
+
+<h2 id="地址">地址</h2>
+
+<p><a href="http://mirrors.cqu.edu.cn/archlinuxcn/">http://mirrors.cqu.edu.cn/archlinuxcn/</a></p>
+
+<h2 id="说明">说明</h2>
+
+<p>Arch Linux CN仓库</p>
+
+<h2 id="简介">简介</h2>
+
+<p>Arch Linux 中文社区仓库是由 Arch Linux 中文社区驱动的非官方用户仓库。包含中文用户常用软件、工具、字体/美化包等。</p>
+
+<p>仓库地址：<a href="http://repo.archlinuxcn.org">http://repo.archlinuxcn.org</a></p>
+
+<h2 id="收录框架">收录框架</h2>
+
+<p>x86_64</p>
+
+<h2 id="使用说明">使用说明</h2>
+
+<p>以root身份手动编辑文件 <strong>/etc/pacman.conf</strong>，在文件末尾加入</p>
+
+<pre><code class="language-bash">[archlinuxcn]
+SigLevel = TrustedOnly
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+</code></pre>
+
+<p>执行：</p>
+
+<pre><code class="language-bash">pacman -Syy
+</code></pre>
+
+<p>强制刷新软件源。
+再执行：</p>
+
+<pre><code class="language-bash">pacman -S archlinuxcn-keyring
+</code></pre>
+
+<p>添加archlinuxCN的GPG key
+<div class="alert rounded-0 alert-info">
+SigLevel建议为TrustedOnly
+</div></p>
+
+<h2 id="相关链接">相关链接</h2>
+
+<p>Arch Linux 中文社区主页:</br>
+<a href="https://www.archlinuxcn.org">https://www.archlinuxcn.org</a></br>
+Arch Linux 中文社区仓库 / 镜像加速源介绍:</br>
+<a href="https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/">https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/</a></p>
+
+            <p class="post-meta border-bottom pb-3 mb-0">Updated on 01 Jan 0001</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/site/archlinuxcn/" title="ArchLinux CN repo"><i class="ti-arrow-left mr-2"></i>ArchLinux CN repo</a>
+            <a class="nav nav-next" href="/site/pypi/" title="PyPi">PyPi<i class="ti-arrow-right ml-2"></i></a>
+            </nav></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>hexang.org 2018-2019</p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="http://mirrors.hexang.com/"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="http://mirrors.hexang.com/"><i class="ti-email"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap JS -->
+<script src="http://mirrors.hexang.com/site/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- highlight -->
+<script src="http://mirrors.hexang.com/site/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Main Script -->
+
+<script src="http://mirrors.hexang.com/site/js/script.min.js"></script>
+
+
+</body>
+
+</html>

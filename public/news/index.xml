@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>镜像站新闻 on hexang 开源镜像站</title>
+    <link>http://mirrors.hexang.com/site/news/</link>
+    <description>Recent content in 镜像站新闻 on hexang 开源镜像站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <copyright>hexang.org 2018-2019</copyright>
+    <lastBuildDate>Fri, 28 Dec 2018 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="http://mirrors.hexang.com/site/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
